@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>my trendr</title>
+</head>
+<body ng-controller="HomeController">
+<h1 class="header">my trendr</h1>
+<p>Enter a location below to get started!</p>
+<form>
+  <input type="text" name="locationbox" class="text-box" ng-model="user.location"/>
+  <a class="btn" href ng-click="update(user)" >What's Trending?</a>
+</form>
+</body>
+</html>
