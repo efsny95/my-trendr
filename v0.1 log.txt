@@ -1,0 +1,27 @@
+v0.1
+========================================================
+
+app.js
+--------------------------------------------------------
+Description: sets up Angular module to 'app', configures the routes and declares a
+filter.
+
+
+HomeController.js
+---------------------------------------------------------
+Description: Controls home view. Grabs text box input and passes to locPassService
+for use in TrendView.html
+
+TrendController.js
+---------------------------------------------------------
+Description: Controls trends view. Gets location's WOEID by passing text to Yahoo api.
+For now, grab WOEID from 'data.query.results.place[0].woeid' in $http.success callback
+function.
+
+TwitterTrendService.js
+---------------------------------------------------------
+Description: Supposed to get trends from twitter. doesn't work
+
+Twitter.js
+---------------------------------------------------------
+unused. might be useful.
